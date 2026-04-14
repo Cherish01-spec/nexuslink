@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Note: Remember to update this URL to your Render URL after deployment!
-            const response = await fetch('https://nexuslink-backend-1wu6.onrender.com/api/shorten', {
+            const response = await fetch('https://nexuslink-backend-lwu6.onrender.com/api/shorten', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
